@@ -1,0 +1,23 @@
+#
+# Defines environment variables.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+# Ensure that a non-login, non-interactive shell has a defined environment.
+if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprofile"
+fi
+
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin/Sencha/Cmd:$PATH"
+export PATH="$HOME/.local/bin/custom_functions:$PATH"
+export PATH="$HOME/.local/bin/imposm-0.10.0-linux-x86-64:$PATH"
+
+export PATH="$HOME/.npm-global/bin:$PATH"
+
+export BAT_THEME="Monokai Extended Light"
+export EDITOR=vim
+export PSQL_EDITOR=vim
+
