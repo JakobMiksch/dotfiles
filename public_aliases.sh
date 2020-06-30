@@ -15,8 +15,6 @@ alias tree6="tree -L 6"
 
 alias figlet="figlet -f big"
 
-alias git_remember="git config credential.helper store"
-
 alias pipe_xclip="xclip -selection c"
 
 # create folder and move into
@@ -61,5 +59,6 @@ alias gd="git diff"
 alias gds="git diff --staged"
 # git log fancy
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit"
+alias git_remember="git config credential.helper store"
 
 alias matrix="cmatrix -a"
