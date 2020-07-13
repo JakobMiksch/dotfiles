@@ -23,8 +23,8 @@ mkcdir (){
   cd -P -- "$1"
 }
 
-# creates directory with the current data as name
-# can have one argument that appends a custom suffix
+# creates a directory with the current date as name
+# accepts one argument that appends a custom suffix
 mkdir_date (){
   today=$(date +"%Y-%m-%d")
 
@@ -59,6 +59,9 @@ alias gd="git diff"
 alias gds="git diff --staged"
 # git log fancy
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit"
-alias git_remember="git config credential.helper store"
+alias git-remember="git config credential.helper store"
+# taken from https://askubuntu.com/a/423705
+alias watch-git-status="watch --color git -c color.status=always status -sb"
+
 
 alias matrix="cmatrix -a"
