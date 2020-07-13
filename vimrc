@@ -22,6 +22,10 @@ set undodir=~/.vim/undo//
 " Search
 set ignorecase
 set smartcase
+" immediately jumps to hit
+set incsearch
+" highlights results
+set hlsearch
 
 set autoindent
 set linebreak
@@ -45,4 +49,16 @@ set autowriteall
 
 " avoids moving outside of VIM while using scroll wheel
 set mouse=a
+
+" show whitespace
+" from https://stackoverflow.com/a/1675752
+set listchars=tab:>-,trail:▣,extends:>,precedes:<,space:·
+set list
+highlight SpecialKey ctermfg=grey guifg=grey70
+" indicates active line
+set cursorline
+" cursor lines - helps with indentation
+" set cursorcolumn
+
+
 
