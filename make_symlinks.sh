@@ -3,7 +3,7 @@
 # creates the symlinks interactively
 make_link(){
     TARGET_DOTFILE_PATH=${HOME}/${2}
-	ln -s -i -v "$(readlink -f ${1})" ${TARGET_DOTFILE_PATH}
+    ln -s -i -v "$(readlink -f ${1})" ${TARGET_DOTFILE_PATH}
 }
 
 make_link tmux.conf     .tmux.conf
@@ -15,4 +15,5 @@ make_link zsh/zpreztorc .zpreztorc
 make_link zsh/zprofile  .zprofile
 make_link zsh/zshenv    .zshenv
 make_link public_aliases.sh .public_aliases.sh
+make_link inputrc       .inputrc
 make_link vscode/settings.json .config/VSCodium/User/settings.json

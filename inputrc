@@ -1,0 +1,3 @@
+# necessary for psql commandline tool
+set editing-mode vi
+set keymap vi-command

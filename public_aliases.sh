@@ -1,6 +1,6 @@
 alias c="codium ."
 
-alias update-os="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
+alias upd="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
 
 alias pip=pip3
 alias ipython=ipython3
@@ -63,5 +63,7 @@ alias git-remember="git config credential.helper store"
 # taken from https://askubuntu.com/a/423705
 alias watch-git-status="watch --color git -c color.status=always status -sb"
 
-
 alias matrix="cmatrix -a"
+
+# do not show line numbers
+alias bat="bat --plain"

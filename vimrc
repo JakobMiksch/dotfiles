@@ -1,3 +1,5 @@
+set nocompatible
+
 " Line Numbers
 set number
 set relativenumber
@@ -10,7 +12,9 @@ set shiftwidth  =4
 set expandtab
 
 " Syntax Highlighting
-syntax on
+syntax enable
+set background=light
+colorscheme solarized
 
 " No files flying around
 " from https://stackoverflow.com/a/15317146
@@ -52,7 +56,7 @@ set mouse=a
 
 " show whitespace
 " from https://stackoverflow.com/a/1675752
-set listchars=tab:>-,trail:▣,extends:>,precedes:<,space:·
+set listchars=tab:>-,trail:▣,extends:>,precedes:<
 set list
 highlight SpecialKey ctermfg=grey guifg=grey70
 " indicates active line
@@ -60,5 +64,7 @@ set cursorline
 " cursor lines - helps with indentation
 " set cursorcolumn
 
-
+" show line at column 81
+let &colorcolumn=81
+" let &colorcolumn=join(range(81,999),",")
 

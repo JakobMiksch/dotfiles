@@ -16,7 +16,7 @@
     "python.dataScience.sendSelectionToInteractiveWindow": true,
     "terminal.integrated.shell.linux": "/bin/zsh",
     "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "workbench.colorTheme": "Default Light+",
     "vetur.format.defaultFormatter.js": "prettier-eslint",
