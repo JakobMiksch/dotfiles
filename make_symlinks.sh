@@ -15,3 +15,4 @@ make_link zsh/zpreztorc .zpreztorc
 make_link zsh/zprofile  .zprofile
 make_link zsh/zshenv    .zshenv
 make_link public_aliases.sh .public_aliases.sh
+make_link vscode/settings.json .config/VSCodium/User/settings.json
