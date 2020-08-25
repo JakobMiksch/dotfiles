@@ -18,7 +18,7 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Solarized Light",
     "vetur.format.defaultFormatter.js": "prettier-eslint",
     "python.dataScience.askForKernelRestart": false,
     "explorer.confirmDragAndDrop": false,
@@ -29,7 +29,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "python.linting.flake8Enabled": true,
     "spellright.addToSystemDictionary": true,
-    "workbench.iconTheme": "vscode-icons",
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
@@ -39,5 +38,6 @@
             "viewType": "default",
             "filenamePattern": "*.pdf"
         }
-    ]
+    ],
+    "workbench.iconTheme": "material-icon-theme"
 }
