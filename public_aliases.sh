@@ -66,4 +66,4 @@ alias watch-git-status="watch --color git -c color.status=always status -sb"
 alias matrix="cmatrix -a"
 
 # do not show line numbers
-alias bat="bat --plain"
+alias batcat="bat --plain"

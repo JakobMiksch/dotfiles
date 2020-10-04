@@ -18,7 +18,7 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Solarized Light",
+    "workbench.colorTheme": "Default Light+",
     "vetur.format.defaultFormatter.js": "prettier-eslint",
     "python.dataScience.askForKernelRestart": false,
     "explorer.confirmDragAndDrop": false,
