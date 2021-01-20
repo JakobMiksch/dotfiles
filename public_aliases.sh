@@ -18,7 +18,7 @@ alias figlet="figlet -f big"
 alias pipe_xclip="xclip -selection c"
 
 # create folder and move into
-mkcdir (){
+mk (){
   mkdir -p -- "$1" &&
   cd -P -- "$1"
 }
@@ -54,6 +54,7 @@ alias webcam_overlay="mpv --no-border --on-all-workspaces --ontop --geometry=450
 # git
 alias ga="git add"
 alias gc="git commit"
+alias gcm="git commit --message"
 alias gs="git status"
 alias gd="git diff"
 alias gds="git diff --staged"
@@ -62,6 +63,22 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %
 alias git-remember="git config credential.helper store"
 # taken from https://askubuntu.com/a/423705
 alias watch-git-status="watch --color git -c color.status=always status -sb"
+
+# clone a repository and move into
+glone() {
+    git clone "$1" && cd "$(basename "$1" .git)"
+}
+
+# create a backup of the current branch
+# useful before rebasing
+git-backup-branch (){
+    TIMESTAMP=$(date +"%Y-%m-%dT%H%M")
+    CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
+    BACKUP_BRANCH="$CURRENT_BRANCH"_"$TIMESTAMP"
+    git branch "$CURRENT_BRANCH"_"$TIMESTAMP"
+    echo "backed up '$CURRENT_BRANCH'"
+    echo "to '$BACKUP_BRANCH'"
+}
 
 alias matrix="cmatrix -a"
 
