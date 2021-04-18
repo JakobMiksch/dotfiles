@@ -58,6 +58,7 @@ alias gcm="git commit --message"
 alias gs="git status"
 alias gd="git diff"
 alias gds="git diff --staged"
+alias grv="git remote --verbose"
 # git log fancy
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit"
 alias git-remember="git config credential.helper store"
