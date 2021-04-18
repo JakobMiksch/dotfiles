@@ -37,7 +37,6 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "files.autoSave": "afterDelay",
     "workbench.editorAssociations": [
         {
             "viewType": "default",
