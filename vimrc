@@ -14,7 +14,6 @@ set expandtab
 " Syntax Highlighting
 syntax enable
 set background=light
-colorscheme solarized
 
 " No files flying around
 " from https://stackoverflow.com/a/15317146
