@@ -1,5 +1,4 @@
 {
-
 	"Create TODO": {
 		"prefix": "todo",
 		"body": [
@@ -27,6 +26,4 @@
 			"console.log({$1})"
 		]
 	}
-
-
 }
