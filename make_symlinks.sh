@@ -17,4 +17,9 @@ make_link zsh/zshenv    .zshenv
 make_link public_aliases.sh .public_aliases.sh
 make_link inputrc       .inputrc
 make_link vscode/settings.json .config/VSCodium/User/settings.json
-make_link gitconfig       .gitconfig
+make_link \
+  vscode/snippets/javascript.json \
+  .config/VSCodium/User/snippets/javascript.json
+make_link \
+  vscode/snippets/markdown.json \
+  .config/VSCodium/User/snippets/markdown.json

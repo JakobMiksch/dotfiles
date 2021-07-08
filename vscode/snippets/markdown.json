@@ -1,0 +1,22 @@
+{
+  "CodeBlock": {
+    "prefix": "block",
+    "body": [
+      "```$1",
+      "$2",
+      "```",
+      "",
+      "$3"
+    ]
+  },
+  "CodeBlock Shell": {
+    "prefix": "shell",
+    "body": [
+      "```shell",
+      "$1",
+      "```",
+      "",
+      "$2"
+    ]
+  }
+}

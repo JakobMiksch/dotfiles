@@ -1,0 +1,32 @@
+{
+
+	"Create TODO": {
+		"prefix": "todo",
+		"body": [
+			"// TODO: $1"
+		]
+	},
+
+	"Create TODO Docs": {
+		"prefix": "tododocs",
+		"body": [
+			"// TODO: docs"
+		]
+	},
+
+	"Ext JS: var me = this;": {
+		"prefix": "methis",
+		"body": [
+			"var me = this;"
+		]
+	},
+
+	"Log variable": {
+		"prefix": "varlog",
+		"body": [
+			"console.log({$1})"
+		]
+	}
+
+
+}
