@@ -54,16 +54,17 @@ alias webcam_overlay="mpv --no-border --on-all-workspaces --ontop --geometry=450
 # git
 alias ga="git add"
 alias gc="git commit"
+alias gch="git checkout"
 alias gcm="git commit --message"
 alias gs="git status"
 alias gd="git diff"
 alias gds="git diff --staged"
 alias grv="git remote --verbose"
 # git log fancy
-alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)' --abbrev-commit"
+alias gl="git log --pretty=format:'%Cred%h%Creset - %s %Cgreen(%cr)%Creset%C(yellow)%d%Creset' --abbrev-commit"
 alias git-remember="git config credential.helper store"
 # taken from https://askubuntu.com/a/423705
-alias watch-git-status="watch --color git -c color.status=always status -sb"
+alias git-watch-status="watch --color git -c color.status=always status -sb"
 
 # clone a repository and move into
 glone() {
