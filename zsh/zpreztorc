@@ -36,6 +36,7 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'syntax-highlighting' \
+  'history-substring-search' \
   'prompt' \
   'tmux' \
   'git'
@@ -138,7 +139,7 @@ zstyle ':prezto:module:prompt' show-return-val false
 
 # Set syntax highlighters.
 
-zstyle ':prezto:module:syntax-highlighting' color 'yes' 
+zstyle ':prezto:module:syntax-highlighting' color 'yes'
 
 
 # By default, only the main highlighter is enabled.
