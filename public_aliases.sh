@@ -40,13 +40,13 @@ mkdir_date (){
 
 # copy pwd to clipboard
 copy-pwd (){
-    echo $(pwd) | xclip -selection clipboard
+    echo -n $(pwd) | xclip -selection clipboard
 }
 
 
 # copy location by argument to clipboard
 copy-loc (){
-    readlink -f $1 | xclip -selection clipboard
+    readlink -f $1 | xargs echo -n | xclip -selection clipboard
 }
 
 alias webcam_overlay="mpv --no-border --on-all-workspaces --ontop --geometry=450 -osc=no --panscan=1 --untimed /dev/video0"
