@@ -1,4 +1,4 @@
-alias c="codium ."
+alias c="code ."
 
 alias upd="sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y"
 
