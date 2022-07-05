@@ -13,8 +13,6 @@ alias tree4="tree -L 4"
 alias tree5="tree -L 5"
 alias tree6="tree -L 6"
 
-alias figlet="figlet -f big"
-
 alias pipe_xclip="xclip -selection c"
 
 # create folder and move into
@@ -42,7 +40,6 @@ mkdir_date (){
 copy-pwd (){
     echo -n $(pwd) | xclip -selection clipboard
 }
-
 
 # copy location by argument to clipboard
 copy-loc (){

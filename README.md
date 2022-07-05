@@ -2,7 +2,7 @@
 
 # Dotfiles
 
-Used on Debian 10 and Linux Mint and `zsh` as standard shell. But of course usable in other environments as well.
+Used on Debian 11 and Linux Mint with `zsh` as standard shell. It should be usable in other environments as well.
 
 ## Issues
 

@@ -12,11 +12,6 @@ if [[ -f "$HOME/.public_aliases.sh" ]]; then
     source "$HOME/.public_aliases.sh"
 fi
 
-# for broot
-if [[ -f "$HOME/.config/broot/launcher/bash/br" ]]; then
-    source "$HOME/.config/broot/launcher/bash/br"
-fi
-
 # necessary for autojump
 . /usr/share/autojump/autojump.sh
 
