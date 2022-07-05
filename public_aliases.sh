@@ -88,8 +88,11 @@ alias matrix="cmatrix -a"
 # do not show line numbers
 alias batcat="bat --plain"
 
-
 # docker
-
 alias d="docker"
 alias dc="docker-compose"
+alias dps="docker ps"
+alias dexec="docker exec -i -t "
+
+# httpie
+alias http="noglob http"
