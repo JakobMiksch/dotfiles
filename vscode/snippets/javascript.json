@@ -11,19 +11,5 @@
 		"body": [
 			"// TODO: docs"
 		]
-	},
-
-	"Ext JS: var me = this;": {
-		"prefix": "methis",
-		"body": [
-			"var me = this;"
-		]
-	},
-
-	"Log variable": {
-		"prefix": "varlog",
-		"body": [
-			"console.log({$1})"
-		]
 	}
 }
