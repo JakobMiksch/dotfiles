@@ -30,10 +30,14 @@ make_link inputrc       .inputrc
 make_link gitconfig       .gitconfig
 
 # VSCode
-make_link vscode/settings.json .config/VSCodium/User/settings.json
 make_link \
   vscode/snippets/javascript.json \
-  .config/VSCodium/User/snippets/javascript.json
+  .config/Code/User/snippets/javascript.json
+
 make_link \
   vscode/snippets/markdown.json \
-  .config/VSCodium/User/snippets/markdown.json
+  .config/Code/User/snippets/markdown.json
+
+make_link \
+  vscode/keybindings.json \
+  .config/Code/User/keybindings.json
