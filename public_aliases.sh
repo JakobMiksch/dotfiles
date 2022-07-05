@@ -55,6 +55,7 @@ alias webcam_overlay="mpv --no-border --on-all-workspaces --ontop --geometry=450
 alias ga="git add"
 alias gc="git commit"
 alias gch="git checkout"
+alias gchb="git checkout -b"
 alias gcm="git commit --message"
 alias gs="git status"
 alias gd="git diff"
