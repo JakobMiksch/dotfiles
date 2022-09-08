@@ -82,9 +82,6 @@ git-backup-branch (){
 
 alias matrix="cmatrix -a"
 
-# do not show line numbers
-alias batcat="bat --plain"
-
 # docker
 alias d="docker"
 alias dc="docker-compose"
@@ -93,3 +90,20 @@ alias dexec="docker exec -i -t "
 
 # httpie
 alias http="noglob http"
+
+# exa
+if command -v exa &> /dev/null
+then
+    alias ls="exa --icons --group-directories-first"
+    alias la="ll -a"
+    alias l="ls -1"
+    alias tree="exa --tree"
+fi
+
+# bat
+if command -v bat &> /dev/null
+then
+    alias cat="bat"
+fi
+
+
