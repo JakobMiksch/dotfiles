@@ -4,12 +4,12 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # source aliases
-if [[ -f  "$HOME/.private_aliases.sh" ]]; then
-    source "$HOME/.private_aliases.sh"
-fi
-
 if [[ -f "$HOME/.public_aliases.sh" ]]; then
     source "$HOME/.public_aliases.sh"
+fi
+
+if [[ -f  "$HOME/.private_aliases.sh" ]]; then
+    source "$HOME/.private_aliases.sh"
 fi
 
 # necessary for autojump
