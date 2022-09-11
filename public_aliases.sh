@@ -97,7 +97,7 @@ then
     alias ls="exa --icons --group-directories-first"
     alias la="ll -a"
     alias l="ls -1"
-    alias tree="exa --tree"
+    alias tree="ls --tree"
 fi
 
 # bat
