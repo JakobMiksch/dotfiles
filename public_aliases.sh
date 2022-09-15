@@ -85,7 +85,7 @@ alias matrix="cmatrix -a"
 # docker
 alias d="docker"
 alias dc="docker-compose"
-alias dps="docker ps"
+alias dps='docker ps --format "table {{.Names}}\t{{.State}}\t{{.RunningFor}}\t{{.Ports}}"'
 alias dexec="docker exec -i -t "
 
 # httpie
