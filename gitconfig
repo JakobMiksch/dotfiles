@@ -1,3 +1,5 @@
 [push]
 	# forces to always specify the upstream branch
 	default = nothing
+[branch]
+        sort = -committerdate
