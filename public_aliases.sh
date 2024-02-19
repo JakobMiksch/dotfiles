@@ -54,8 +54,9 @@ alias gc="git commit"
 alias gch="git checkout"
 alias gchb="git checkout -b"
 alias gcm="git commit --message"
-alias gs="git status"
-alias gd="git diff"
+alias gs="git status -s"
+# hide  'package-lock.json' from diff
+alias gd="git diff -- ':!package-lock.json'"
 alias gds="git diff --staged"
 alias grv="git remote --verbose"
 # git log fancy
